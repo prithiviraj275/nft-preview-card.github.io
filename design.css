@@ -25,16 +25,46 @@
 
 }
 
+.imagecard{
+    
+
+}
 .imageMain{
     height: 250px;
     width: 250px;    
     border-radius: 10px;
+    
+    position: absolute;
+}
 
+.activeIcon{
+    opacity: 0;
+    padding: 101px;
+    /* height: 250px;
+    width: 250px;    */
+    position: absolute;
+    transform: 1s;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.activeIcon:hover{
+    opacity: 0.7;
+    background-color: hsl(178, 100%, 50%);
+}
+
+
+.textcard{
+    margin-top: 260px;
 }
 
 .t1{
     color: #fff;
     
+}
+.t1:hover, .imgName:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
 }
 .t2{
     color: hsl(215, 51%, 70%);
