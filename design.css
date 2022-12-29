@@ -1,0 +1,87 @@
+.main{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: outfitfonts;    
+     src: url(Outfit/static/Outfit-Medium.ttf);
+}
+.card{
+    height: 500px;
+    width: 250px;
+    /* color:hsl(216, 50%, 16%) ; */
+    /* border: 1px solid white; */
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow:10px 10px 20px hsl(215, 51%, 70%); */
+    font-family: outfitfonts;
+    font-size: 18px;
+
+}
+
+.imageMain{
+    height: 250px;
+    width: 250px;    
+    border-radius: 10px;
+
+}
+
+.t1{
+    color: #fff;
+    
+}
+.t2{
+    color: hsl(215, 51%, 70%);
+}
+.t3{
+    color: hsl(178, 100%, 50%);
+}
+
+.t4{
+    padding-top: 0;
+    margin-left: 35px;
+    color: hsl(215, 51%, 70%);
+
+}
+
+
+.nameDiv{
+    display: flex;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding: 10px 0;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.t5{
+    height: 20px;
+    /* border: 1px solid white; */    
+    /* padding: 10px; */
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+    
+
+}
+
+
+.imgName{
+    color: #fff;
+}
+.dpPic{
+    height: 30px;
+    width: 30px;    
+    border: 1px solid #fff;
+    border-radius: 25px;
+    box-sizing: border-box;
+    
+}
